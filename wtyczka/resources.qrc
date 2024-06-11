@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/Drugi_Projekt" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
