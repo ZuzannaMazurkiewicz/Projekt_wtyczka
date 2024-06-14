@@ -76,7 +76,7 @@ class DrugiProjektDialog(QtWidgets.QDialog, FORM_CLASS):
             
         wysokosci =iface.activeLayer().selectedFeatures()
         for i in wysokosci:
-            H.append(i[2])
+            H.append(i['wysokosc'])
             
         if self.radioButton_przewyzszenia.isChecked() == True and len(liczba_elementow) == 2:
             dh = H[1] - H[0]
